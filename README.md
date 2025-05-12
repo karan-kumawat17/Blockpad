@@ -273,6 +273,11 @@ quill.on('text-change', function (delta, oldDelta, source) {
 npm test
 ```
 
+## Special Thanks to my Teammates:
+1. Patel Heet Niraj
+2. Prince Tholia
+3. Priyansh Awasthi
+
 ## References
 
 - [Awesome Blockchains](https://github.com/openblockchains/awesome-blockchains)
