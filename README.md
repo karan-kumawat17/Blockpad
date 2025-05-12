@@ -34,6 +34,7 @@ npm start
 $env:HTTP_PORT=3002
 $env:P2P_PORT=6002
 $env:PEERS="ws://localhost:6001"
+npm start
 ```
 
 ## Development
