@@ -12,7 +12,7 @@ BlockPad is a real-time collaborative rich text editor powered by a blockchain.
 npm install
 ```
 
-## Usage
+## Usage for Linux:
 1. Launch two instances of BlockPad with different HTTP and P2P ports. Specify the WebSocket URL for the peers.
 ```sh
 HTTP_PORT=3001 P2P_PORT=6001 npm start
@@ -20,6 +20,21 @@ HTTP_PORT=3002 P2P_PORT=6002 PEERS=ws://localhost:6001 npm start
 ```
 
 2. Go to http://localhost:3001 and http://localhost:3002 in your browser and start typing.
+
+## Usage for Windows:
+1. Launch two instances of BlockPad with different HTTP and P2P ports. Specify the WebSocket URL for the peers.
+```sh
+$env:HTTP_PORT=3001
+$env:P2P_PORT=6001
+npm start
+```
+
+2. Launch new terminal in the same directory and do:
+```sh
+$env:HTTP_PORT=3002
+$env:P2P_PORT=6002
+$env:PEERS="ws://localhost:6001"
+```
 
 ## Development
 
